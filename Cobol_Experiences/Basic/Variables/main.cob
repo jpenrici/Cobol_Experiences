@@ -1,5 +1,5 @@
 *>*****************************************************************
-*> Author:      Your Name
+*> Author:      Anonymous (Your Name)
 *> Date:        2025-12-26
 *> Purpose:     Study of type and variable declaration.
 *> Tect Stack:  GnuCOBOL / Debian 13
@@ -38,6 +38,7 @@ IDENTIFICATION DIVISION.
            DISPLAY "Name:    " WS-NAME.
            DISPLAY "Age:     " WS-AGE.
            DISPLAY "Type:    " WS-ACCOUNT-TYPE.
+           *> We display the formatted variable, not the raw numeric one
            DISPLAY "Balance: " WS-FORMATTED-BALANCE.
            DISPLAY "-------------------------------".
 
